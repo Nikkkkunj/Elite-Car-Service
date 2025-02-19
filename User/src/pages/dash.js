@@ -2,9 +2,9 @@ import React from 'react';
 
 function Dashboard() {
   return (
+    <>
 
-    //  {/* Carousel Start */} 
-    <div class="container-fluid p-0 mb-5">
+   <div class="container-fluid p-0 mb-5">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -54,10 +54,7 @@ function Dashboard() {
             </button>
         </div>
     </div>
-    // {/* Carousel End */}
-
-
-    {/* Service Start */}
+   
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-4">
@@ -94,17 +91,15 @@ function Dashboard() {
             </div>
         </div>
     </div>
-   {/* Service End */}
+  
 
-
-    {/* About Start */}
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
-                <div class="col-lg-6 pt-4" style="min-height: 400px;">
+                <div class="col-lg-6 pt-4" >
                     <div class="position-relative h-100 wow fadeIn" data-wow-delay="0.1s">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg" style="object-fit: cover;" alt="">
-                        <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style="background: rgba(0, 0, 0, .08);">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg"  alt=""/>
+                        <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" >
                             <h1 class="display-4 text-white mb-0">15 <span class="fs-4">Years</span></h1>
                             <h4 class="text-white">Experience</h4>
                         </div>
@@ -117,7 +112,7 @@ function Dashboard() {
                     <div class="row g-4 mb-3 pb-3">
                         <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
                             <div class="d-flex">
-                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" >
                                     <span class="fw-bold text-secondary">01</span>
                                 </div>
                                 <div class="ps-3">
@@ -128,7 +123,7 @@ function Dashboard() {
                         </div>
                         <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
                             <div class="d-flex">
-                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1">
                                     <span class="fw-bold text-secondary">02</span>
                                 </div>
                                 <div class="ps-3">
@@ -139,7 +134,7 @@ function Dashboard() {
                         </div>
                         <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
                             <div class="d-flex">
-                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" style="width: 45px; height: 45px;">
+                                <div class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1" >
                                     <span class="fw-bold text-secondary">03</span>
                                 </div>
                                 <div class="ps-3">
@@ -154,10 +149,8 @@ function Dashboard() {
             </div>
         </div>
     </div>
-    {/* About End */}
+    
 
-
-         {/* Fact Start */}
     <div class="container-fluid fact bg-dark my-5 py-5">
         <div class="container">
             <div class="row g-4">
@@ -184,10 +177,8 @@ function Dashboard() {
             </div>
         </div>
     </div>
-    {/* Fact End */}
+   
 
-
-     {/* Service Start */}
     <div class="container-xxl service py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -219,10 +210,10 @@ function Dashboard() {
                     <div class="tab-content w-100">
                         <div class="tab-pane fade show active" id="tab-pane-1">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" >
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/service-1.jpg"
-                                            style="object-fit: cover;" alt="">
+                                             alt=""/>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -237,10 +228,10 @@ function Dashboard() {
                         </div>
                         <div class="tab-pane fade" id="tab-pane-2">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" >
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/service-2.jpg"
-                                            style="object-fit: cover;" alt="">
+                                             alt=""/>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -255,10 +246,10 @@ function Dashboard() {
                         </div>
                         <div class="tab-pane fade" id="tab-pane-3">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" >
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/service-3.jpg"
-                                            style="object-fit: cover;" alt="">
+                                         alt=""/>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -273,10 +264,10 @@ function Dashboard() {
                         </div>
                         <div class="tab-pane fade" id="tab-pane-4">
                             <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
+                                <div class="col-md-6" >
                                     <div class="position-relative h-100">
                                         <img class="position-absolute img-fluid w-100 h-100" src="img/service-4.jpg"
-                                            style="object-fit: cover;" alt="">
+                                             alt=""/>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -294,10 +285,8 @@ function Dashboard() {
             </div>
         </div>
     </div>
-      {/* Service End */}
+      
 
-
-    {/* Booking Start */}
     <div class="container-fluid bg-secondary booking my-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
@@ -313,13 +302,13 @@ function Dashboard() {
                         <form>
                             <div class="row g-3">
                                 <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" />
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" />
                                 </div>
                                 <div class="col-12 col-sm-6">
-                                    <select class="form-select border-0" style="height: 55px;">
+                                    <select class="form-select border-0" >
                                         <option selected>Select A Service</option>
                                         <option value="1">Service 1</option>
                                         <option value="2">Service 2</option>
@@ -330,7 +319,7 @@ function Dashboard() {
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text"
                                             class="form-control border-0 datetimepicker-input"
-                                            placeholder="Service Date" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;">
+                                            placeholder="Service Date" data-target="#date1" data-toggle="datetimepicker" />
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -346,10 +335,8 @@ function Dashboard() {
             </div>
         </div>
     </div>
-    {/* Booking End */}
+    
 
-
-      {/* Team Start */}
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
@@ -360,7 +347,7 @@ function Dashboard() {
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <img class="img-fluid" src="img/team-1.jpg" alt=""/>
                             <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -376,7 +363,7 @@ function Dashboard() {
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            <img class="img-fluid" src="img/team-2.jpg" alt=""/>
                             <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -392,7 +379,7 @@ function Dashboard() {
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            <img class="img-fluid" src="img/team-3.jpg" alt=""/>
                             <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -408,7 +395,7 @@ function Dashboard() {
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="team-item">
                         <div class="position-relative overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            <img class="img-fluid" src="img/team-4.jpg" alt=""/>
                             <div class="team-overlay position-absolute start-0 top-0 w-100 h-100">
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -424,10 +411,8 @@ function Dashboard() {
             </div>
         </div>
     </div>
-    {/* Team End */}
-
-
-   {/* Testimonial Start */}
+  
+  
     <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="text-center">
@@ -436,7 +421,7 @@ function Dashboard() {
             </div>
             <div class="owl-carousel testimonial-carousel position-relative">
                 <div class="testimonial-item text-center">
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-1.jpg"/>
                     <h5 class="mb-0">Client Name</h5>
                     <p>Profession</p>
                     <div class="testimonial-text bg-light text-center p-4">
@@ -444,7 +429,7 @@ function Dashboard() {
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-2.jpg" />
                     <h5 class="mb-0">Client Name</h5>
                     <p>Profession</p>
                     <div class="testimonial-text bg-light text-center p-4">
@@ -452,7 +437,7 @@ function Dashboard() {
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-3.jpg" />
                     <h5 class="mb-0">Client Name</h5>
                     <p>Profession</p>
                     <div class="testimonial-text bg-light text-center p-4">
@@ -460,7 +445,7 @@ function Dashboard() {
                     </div>
                 </div>
                 <div class="testimonial-item text-center">
-                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" style="width: 80px; height: 80px;">
+                    <img class="bg-light rounded-circle p-2 mx-auto mb-3" src="img/testimonial-4.jpg" />
                     <h5 class="mb-0">Client Name</h5>
                     <p>Profession</p>
                     <div class="testimonial-text bg-light text-center p-4">
@@ -469,9 +454,10 @@ function Dashboard() {
                 </div>
             </div>
         </div>
-    </div>
-  {/* Testimonial End */}
-
+    </div>  
+    
+ 
+    </>
     
   );
 }
